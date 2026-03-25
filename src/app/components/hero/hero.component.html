@@ -1,0 +1,35 @@
+<section class="hero-section">
+  <div class="hero-overlay"></div>
+  <div class="glow glow-top"></div>
+  <div class="glow glow-right"></div>
+  <div class="glow glow-bottom"></div>
+
+  <div class="container hero-content">
+    <div class="hero-copy">
+      <div class="logo-wrap">
+        <img src="logo.png" alt="Digital Devs" class="logo" />
+      </div>
+
+      <h1>
+        We help online brands grow with smarter ads, sharper creative, and better data.
+      </h1>
+
+      <p class="hero-text">
+        A performance-driven growth agency focused on Meta, Google, TikTok, Pinterest, and social ads for e-commerce
+        brands that want more revenue, stronger efficiency, and a strategy built around real business numbers.
+      </p>
+
+      <div class="hero-actions">
+        <a href="https://calendly.com/digitaldevsmeet/30min" target="_blank" class="btn btn-primary">Book a discovery call</a>
+        <a href="#services" class="btn btn-secondary">Explore services</a>
+      </div>
+    </div>
+
+    <div class="stats-grid">
+      <div class="stat-card" *ngFor="let stat of stats">
+        <div class="stat-value">{{ stat.value }}</div>
+        <div class="stat-label">{{ stat.label }}</div>
+      </div>
+    </div>
+  </div>
+</section>

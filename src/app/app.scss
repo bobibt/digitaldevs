@@ -1,0 +1,12 @@
+:host {
+  display: block;
+}
+
+.page-shell {
+  min-height: 100vh;
+  color: #ffffff;
+  font-family: Inter, Arial, sans-serif;
+  background:
+    radial-gradient(circle at top, rgba(44, 167, 201, 0.22), transparent 20%),
+    linear-gradient(180deg, #061426 0%, #0a2f53 42%, #0f4c81 100%);
+}

@@ -1,0 +1,13 @@
+<section id="services" class="section container">
+  <div class="section-heading narrow">
+    <p class="section-label">Services</p>
+    <h2>Built for brands that want a partner, not just someone pressing buttons.</h2>
+  </div>
+
+  <div class="services-grid">
+    <article class="service-card" *ngFor="let service of services">
+      <h3>{{ service.title }}</h3>
+      <p>{{ service.desc }}</p>
+    </article>
+  </div>
+</section>

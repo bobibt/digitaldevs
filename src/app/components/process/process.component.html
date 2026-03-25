@@ -1,0 +1,31 @@
+<section class="section container">
+  <div class="process-layout">
+    <div>
+      <p class="section-label">Our process</p>
+      <h2>A simple process designed to find what works and scale it.</h2>
+
+      <div class="process-list">
+        <div class="process-card" *ngFor="let step of process; let i = index">
+          <div class="step-badge">{{ i + 1 }}</div>
+          <p>{{ step }}</p>
+        </div>
+      </div>
+    </div>
+
+    <aside class="feature-panel">
+      <p class="section-label">Who we work with</p>
+      <h3>Best fit clients</h3>
+
+      <div class="feature-copy">
+        <p>Growing e-commerce brands that already have traction and want to scale with more structure.</p>
+        <p>Founders who want clear communication, smarter testing, and a team that understands profitability.</p>
+        <p>Brands in fashion, beauty, wellness, and lifestyle that need a mix of strategy, execution, and creative direction.</p>
+      </div>
+
+      <div class="feature-cta">
+        <p class="small-copy">Need a stronger online growth strategy?</p>
+        <p class="feature-cta-title">Let’s build a channel mix that supports real, sustainable growth.</p>
+      </div>
+    </aside>
+  </div>
+</section>
